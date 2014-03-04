@@ -7,17 +7,33 @@
 //
 
 #import "HDAppDelegate.h"
-
 #import "HDViewController.h"
+#import "HDWebServiceFetcher.h"
 
 @implementation HDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    HDWebServiceFetcher *fetcher = [[HDWebServiceFetcher alloc] init];
+    //
+    NSError *error;
+    [fetcher fetchListsWithError:&error];
+    //
+    /*HDViewController *mainVC = [[HDViewController alloc] initWithNibName:@"HDViewController" bundle:nil];*/
+    //
+    HDViewController *mainVC = [[HDViewController alloc] initWithWishLists:fetcher.wishLists];
+    
+    //////////////////////////////
+    //Navigations
+    UINavigationController *hitDreamsNavigation =[[UINavigationController alloc]
+                                             initWithRootViewController:mainVC
+                                             ];
+    ///////////////
     // Override point for customization after application launch.
-    self.viewController = [[HDViewController alloc] initWithNibName:@"HDViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    /*self.viewController = [[HDViewController alloc] initWithNibName:@"HDViewController" bundle:nil];*/
+    self.window.rootViewController = hitDreamsNavigation;//self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }

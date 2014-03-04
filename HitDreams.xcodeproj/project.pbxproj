@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB76E50218C38B10008C422D /* HDPhotoUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB76E50018C38B10008C422D /* HDPhotoUploadViewController.m */; };
+		EB76E50318C38B10008C422D /* HDPhotoUploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB76E50118C38B10008C422D /* HDPhotoUploadViewController.xib */; };
 		EB93D60F18B9211700681DD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93D60E18B9211700681DD9 /* UIKit.framework */; };
 		EB93D61118B9211700681DD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93D61018B9211700681DD9 /* Foundation.framework */; };
 		EB93D61318B9211700681DD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB93D61218B9211700681DD9 /* CoreGraphics.framework */; };
@@ -18,9 +20,54 @@
 		EB93D62518B9211700681DD9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D62418B9211700681DD9 /* Default-568h@2x.png */; };
 		EB93D62818B9211700681DD9 /* HDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93D62718B9211700681DD9 /* HDViewController.m */; };
 		EB93D62B18B9211700681DD9 /* HDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93D62918B9211700681DD9 /* HDViewController.xib */; };
+		EB93D63618B9270B00681DD9 /* galeria_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63218B9270B00681DD9 /* galeria_256x256.png */; };
+		EB93D63718B9270B00681DD9 /* galerias_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63318B9270B00681DD9 /* galerias_512x512.png */; };
+		EB93D63818B9270B00681DD9 /* Notas_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63418B9270B00681DD9 /* Notas_256x256.png */; };
+		EB93D63918B9270B00681DD9 /* Notas_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63518B9270B00681DD9 /* Notas_512x512.png */; };
+		EB93D64518B9272F00681DD9 /* add_note_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63B18B9272F00681DD9 /* add_note_256x256.png */; };
+		EB93D64618B9272F00681DD9 /* add_note_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63C18B9272F00681DD9 /* add_note_512x512.png */; };
+		EB93D64718B9272F00681DD9 /* foto_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63D18B9272F00681DD9 /* foto_256x256.png */; };
+		EB93D64818B9272F00681DD9 /* foto_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63E18B9272F00681DD9 /* foto_512x512.png */; };
+		EB93D64918B9272F00681DD9 /* Galeria_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D63F18B9272F00681DD9 /* Galeria_256x256.png */; };
+		EB93D64A18B9272F00681DD9 /* Galeria_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D64018B9272F00681DD9 /* Galeria_512x512.png */; };
+		EB93D64B18B9272F00681DD9 /* lupa_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D64118B9272F00681DD9 /* lupa_256x256.png */; };
+		EB93D64C18B9272F00681DD9 /* lupa_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D64218B9272F00681DD9 /* lupa_512x512.png */; };
+		EB93D64D18B9272F00681DD9 /* note_256x256.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D64318B9272F00681DD9 /* note_256x256.png */; };
+		EB93D64E18B9272F00681DD9 /* note_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = EB93D64418B9272F00681DD9 /* note_512x512.png */; };
+		EB93D65218B92C4300681DD9 /* HDPendingBusinessesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93D65018B92C4300681DD9 /* HDPendingBusinessesViewController.m */; };
+		EB93D65318B92C4300681DD9 /* HDPendingBusinessesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65118B92C4300681DD9 /* HDPendingBusinessesViewController.xib */; };
+		EB93D65718B9353C00681DD9 /* HDNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93D65518B9353C00681DD9 /* HDNotesViewController.m */; };
+		EB93D65818B9353C00681DD9 /* HDNotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65618B9353C00681DD9 /* HDNotesViewController.xib */; };
+		EB93D66218BA354B00681DD9 /* dress1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65C18BA354700681DD9 /* dress1.jpeg */; };
+		EB93D66318BA354B00681DD9 /* dress2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65D18BA354700681DD9 /* dress2.jpeg */; };
+		EB93D66418BA354B00681DD9 /* dress3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65E18BA354800681DD9 /* dress3.jpg */; };
+		EB93D66518BA354B00681DD9 /* dress4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D65F18BA354900681DD9 /* dress4.jpeg */; };
+		EB93D66618BA354B00681DD9 /* dress5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D66018BA354900681DD9 /* dress5.jpeg */; };
+		EB93D66718BA354B00681DD9 /* dress6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EB93D66118BA354A00681DD9 /* dress6.jpeg */; };
+		EB93D66B18BA35DC00681DD9 /* HDGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93D66918BA35DB00681DD9 /* HDGalleryViewController.m */; };
+		EB93D67218BA436600681DD9 /* HDGalleryViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EB93D67118BA436600681DD9 /* HDGalleryViewCell.m */; };
+		EB93D67418BA52DB00681DD9 /* HDGalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93D67318BA52DA00681DD9 /* HDGalleryViewController.xib */; };
+		EB93D67618BA59DC00681DD9 /* HDGalleryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB93D67518BA59DB00681DD9 /* HDGalleryViewCell.xib */; };
+		EBF64C4418BCA79B0062C918 /* HDWish.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C4318BCA79B0062C918 /* HDWish.m */; };
+		EBF64C4718BCA7D30062C918 /* HDWishList.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C4618BCA7D30062C918 /* HDWishList.m */; };
+		EBF64C4A18BCA7EF0062C918 /* HDUser.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C4918BCA7EF0062C918 /* HDUser.m */; };
+		EBF64C4D18BCB6D10062C918 /* HDWebServiceFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C4C18BCB6D00062C918 /* HDWebServiceFetcher.m */; };
+		EBF64C5718BCFEEA0062C918 /* HDGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C5618BCFEE90062C918 /* HDGalleryView.m */; };
+		EBF64C5F18BDF2460062C918 /* HDWishListViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C5E18BDF2460062C918 /* HDWishListViewCell.m */; };
+		EBF64C6318BF8A920062C918 /* HDWishListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF64C6218BF8A920062C918 /* HDWishListViewCell.xib */; };
+		EBF64C6618C275B00062C918 /* HDWishListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C6518C275B00062C918 /* HDWishListCell.m */; };
+		EBF64C6818C275CA0062C918 /* HDWishListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF64C6718C275C90062C918 /* HDWishListCell.xib */; };
+		EBF64C7018C282B70062C918 /* HDWishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C6F18C282B60062C918 /* HDWishCell.m */; };
+		EBF64C7218C282E00062C918 /* HDWishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF64C7118C282E00062C918 /* HDWishCell.xib */; };
+		EBF64C7618C348350062C918 /* HDWishImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF64C7418C348320062C918 /* HDWishImagePickerController.m */; };
+		EBF64C7718C348350062C918 /* HDWishImagePickerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF64C7518C348340062C918 /* HDWishImagePickerController.xib */; };
+		EBF64C7918C34F1D0062C918 /* HDWishPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF64C7818C34F1C0062C918 /* HDWishPhotoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB76E4FF18C38B0F008C422D /* HDPhotoUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDPhotoUploadViewController.h; sourceTree = "<group>"; };
+		EB76E50018C38B10008C422D /* HDPhotoUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDPhotoUploadViewController.m; sourceTree = "<group>"; };
+		EB76E50118C38B10008C422D /* HDPhotoUploadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDPhotoUploadViewController.xib; sourceTree = "<group>"; };
 		EB93D60B18B9211700681DD9 /* HitDreams.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitDreams.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB93D60E18B9211700681DD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EB93D61018B9211700681DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +84,62 @@
 		EB93D62618B9211700681DD9 /* HDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDViewController.h; sourceTree = "<group>"; };
 		EB93D62718B9211700681DD9 /* HDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDViewController.m; sourceTree = "<group>"; };
 		EB93D62A18B9211700681DD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HDViewController.xib; sourceTree = "<group>"; };
+		EB93D63218B9270B00681DD9 /* galeria_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galeria_256x256.png; sourceTree = "<group>"; };
+		EB93D63318B9270B00681DD9 /* galerias_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galerias_512x512.png; sourceTree = "<group>"; };
+		EB93D63418B9270B00681DD9 /* Notas_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notas_256x256.png; sourceTree = "<group>"; };
+		EB93D63518B9270B00681DD9 /* Notas_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notas_512x512.png; sourceTree = "<group>"; };
+		EB93D63B18B9272F00681DD9 /* add_note_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_note_256x256.png; sourceTree = "<group>"; };
+		EB93D63C18B9272F00681DD9 /* add_note_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_note_512x512.png; sourceTree = "<group>"; };
+		EB93D63D18B9272F00681DD9 /* foto_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto_256x256.png; sourceTree = "<group>"; };
+		EB93D63E18B9272F00681DD9 /* foto_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foto_512x512.png; sourceTree = "<group>"; };
+		EB93D63F18B9272F00681DD9 /* Galeria_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Galeria_256x256.png; sourceTree = "<group>"; };
+		EB93D64018B9272F00681DD9 /* Galeria_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Galeria_512x512.png; sourceTree = "<group>"; };
+		EB93D64118B9272F00681DD9 /* lupa_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupa_256x256.png; sourceTree = "<group>"; };
+		EB93D64218B9272F00681DD9 /* lupa_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lupa_512x512.png; sourceTree = "<group>"; };
+		EB93D64318B9272F00681DD9 /* note_256x256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_256x256.png; sourceTree = "<group>"; };
+		EB93D64418B9272F00681DD9 /* note_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_512x512.png; sourceTree = "<group>"; };
+		EB93D64F18B92C4300681DD9 /* HDPendingBusinessesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDPendingBusinessesViewController.h; sourceTree = "<group>"; };
+		EB93D65018B92C4300681DD9 /* HDPendingBusinessesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDPendingBusinessesViewController.m; sourceTree = "<group>"; };
+		EB93D65118B92C4300681DD9 /* HDPendingBusinessesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDPendingBusinessesViewController.xib; sourceTree = "<group>"; };
+		EB93D65418B9353C00681DD9 /* HDNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDNotesViewController.h; sourceTree = "<group>"; };
+		EB93D65518B9353C00681DD9 /* HDNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDNotesViewController.m; sourceTree = "<group>"; };
+		EB93D65618B9353C00681DD9 /* HDNotesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDNotesViewController.xib; sourceTree = "<group>"; };
+		EB93D65C18BA354700681DD9 /* dress1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress1.jpeg; sourceTree = "<group>"; };
+		EB93D65D18BA354700681DD9 /* dress2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress2.jpeg; sourceTree = "<group>"; };
+		EB93D65E18BA354800681DD9 /* dress3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress3.jpg; sourceTree = "<group>"; };
+		EB93D65F18BA354900681DD9 /* dress4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress4.jpeg; sourceTree = "<group>"; };
+		EB93D66018BA354900681DD9 /* dress5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress5.jpeg; sourceTree = "<group>"; };
+		EB93D66118BA354A00681DD9 /* dress6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dress6.jpeg; sourceTree = "<group>"; };
+		EB93D66818BA35DB00681DD9 /* HDGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDGalleryViewController.h; sourceTree = "<group>"; };
+		EB93D66918BA35DB00681DD9 /* HDGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDGalleryViewController.m; sourceTree = "<group>"; };
+		EB93D67018BA436600681DD9 /* HDGalleryViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HDGalleryViewCell.h; path = ../HDGalleryViewCell.h; sourceTree = "<group>"; };
+		EB93D67118BA436600681DD9 /* HDGalleryViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HDGalleryViewCell.m; path = ../HDGalleryViewCell.m; sourceTree = "<group>"; };
+		EB93D67318BA52DA00681DD9 /* HDGalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDGalleryViewController.xib; sourceTree = "<group>"; };
+		EB93D67518BA59DB00681DD9 /* HDGalleryViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDGalleryViewCell.xib; sourceTree = "<group>"; };
+		EB93D67718BBB7E300681DD9 /* HitDreams.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HitDreams.entitlements; sourceTree = "<group>"; };
+		EBF64C4218BCA79B0062C918 /* HDWish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWish.h; sourceTree = "<group>"; };
+		EBF64C4318BCA79B0062C918 /* HDWish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWish.m; sourceTree = "<group>"; };
+		EBF64C4518BCA7D30062C918 /* HDWishList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWishList.h; sourceTree = "<group>"; };
+		EBF64C4618BCA7D30062C918 /* HDWishList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWishList.m; sourceTree = "<group>"; };
+		EBF64C4818BCA7EF0062C918 /* HDUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDUser.h; sourceTree = "<group>"; };
+		EBF64C4918BCA7EF0062C918 /* HDUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDUser.m; sourceTree = "<group>"; };
+		EBF64C4B18BCB6D00062C918 /* HDWebServiceFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWebServiceFetcher.h; sourceTree = "<group>"; };
+		EBF64C4C18BCB6D00062C918 /* HDWebServiceFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWebServiceFetcher.m; sourceTree = "<group>"; };
+		EBF64C5518BCFEE90062C918 /* HDGalleryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDGalleryView.h; sourceTree = "<group>"; };
+		EBF64C5618BCFEE90062C918 /* HDGalleryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDGalleryView.m; sourceTree = "<group>"; };
+		EBF64C5D18BDF2460062C918 /* HDWishListViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWishListViewCell.h; sourceTree = "<group>"; };
+		EBF64C5E18BDF2460062C918 /* HDWishListViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWishListViewCell.m; sourceTree = "<group>"; };
+		EBF64C6218BF8A920062C918 /* HDWishListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWishListViewCell.xib; sourceTree = "<group>"; };
+		EBF64C6418C275AE0062C918 /* HDWishListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWishListCell.h; sourceTree = "<group>"; };
+		EBF64C6518C275B00062C918 /* HDWishListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWishListCell.m; sourceTree = "<group>"; };
+		EBF64C6718C275C90062C918 /* HDWishListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWishListCell.xib; sourceTree = "<group>"; };
+		EBF64C6E18C282B50062C918 /* HDWishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWishCell.h; sourceTree = "<group>"; };
+		EBF64C6F18C282B60062C918 /* HDWishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWishCell.m; sourceTree = "<group>"; };
+		EBF64C7118C282E00062C918 /* HDWishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWishCell.xib; sourceTree = "<group>"; };
+		EBF64C7318C3482F0062C918 /* HDWishImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDWishImagePickerController.h; sourceTree = "<group>"; };
+		EBF64C7418C348320062C918 /* HDWishImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDWishImagePickerController.m; sourceTree = "<group>"; };
+		EBF64C7518C348340062C918 /* HDWishImagePickerController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWishImagePickerController.xib; sourceTree = "<group>"; };
+		EBF64C7818C34F1C0062C918 /* HDWishPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HDWishPhotoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +186,44 @@
 		EB93D61418B9211700681DD9 /* HitDreams */ = {
 			isa = PBXGroup;
 			children = (
+				EB76E4FF18C38B0F008C422D /* HDPhotoUploadViewController.h */,
+				EB76E50118C38B10008C422D /* HDPhotoUploadViewController.xib */,
+				EB76E50018C38B10008C422D /* HDPhotoUploadViewController.m */,
+				EBF64C6E18C282B50062C918 /* HDWishCell.h */,
+				EBF64C6F18C282B60062C918 /* HDWishCell.m */,
+				EBF64C7118C282E00062C918 /* HDWishCell.xib */,
+				EBF64C5D18BDF2460062C918 /* HDWishListViewCell.h */,
+				EBF64C6218BF8A920062C918 /* HDWishListViewCell.xib */,
+				EBF64C6418C275AE0062C918 /* HDWishListCell.h */,
+				EBF64C6518C275B00062C918 /* HDWishListCell.m */,
+				EBF64C6718C275C90062C918 /* HDWishListCell.xib */,
+				EBF64C5E18BDF2460062C918 /* HDWishListViewCell.m */,
+				EBF64C4118BCA6A90062C918 /* model */,
+				EB93D67718BBB7E300681DD9 /* HitDreams.entitlements */,
+				EB93D67018BA436600681DD9 /* HDGalleryViewCell.h */,
+				EB93D67118BA436600681DD9 /* HDGalleryViewCell.m */,
+				EB93D67518BA59DB00681DD9 /* HDGalleryViewCell.xib */,
 				EB93D61D18B9211700681DD9 /* HDAppDelegate.h */,
 				EB93D61E18B9211700681DD9 /* HDAppDelegate.m */,
 				EB93D62618B9211700681DD9 /* HDViewController.h */,
 				EB93D62718B9211700681DD9 /* HDViewController.m */,
 				EB93D62918B9211700681DD9 /* HDViewController.xib */,
+				EB93D64F18B92C4300681DD9 /* HDPendingBusinessesViewController.h */,
+				EB93D65018B92C4300681DD9 /* HDPendingBusinessesViewController.m */,
+				EB93D65118B92C4300681DD9 /* HDPendingBusinessesViewController.xib */,
+				EB93D65418B9353C00681DD9 /* HDNotesViewController.h */,
+				EB93D65518B9353C00681DD9 /* HDNotesViewController.m */,
+				EB93D65618B9353C00681DD9 /* HDNotesViewController.xib */,
 				EB93D61518B9211700681DD9 /* Supporting Files */,
+				EB93D66818BA35DB00681DD9 /* HDGalleryViewController.h */,
+				EB93D67318BA52DA00681DD9 /* HDGalleryViewController.xib */,
+				EB93D66918BA35DB00681DD9 /* HDGalleryViewController.m */,
+				EBF64C5518BCFEE90062C918 /* HDGalleryView.h */,
+				EBF64C5618BCFEE90062C918 /* HDGalleryView.m */,
+				EBF64C7318C3482F0062C918 /* HDWishImagePickerController.h */,
+				EBF64C7418C348320062C918 /* HDWishImagePickerController.m */,
+				EBF64C7518C348340062C918 /* HDWishImagePickerController.xib */,
+				EBF64C7818C34F1C0062C918 /* HDWishPhotoView.xib */,
 			);
 			path = HitDreams;
 			sourceTree = "<group>";
@@ -96,6 +231,14 @@
 		EB93D61518B9211700681DD9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EB93D66118BA354A00681DD9 /* dress6.jpeg */,
+				EB93D66018BA354900681DD9 /* dress5.jpeg */,
+				EB93D65F18BA354900681DD9 /* dress4.jpeg */,
+				EB93D65E18BA354800681DD9 /* dress3.jpg */,
+				EB93D65D18BA354700681DD9 /* dress2.jpeg */,
+				EB93D65C18BA354700681DD9 /* dress1.jpeg */,
+				EB93D63A18B9272F00681DD9 /* Icons */,
+				EB93D63118B9270B00681DD9 /* Shots */,
 				EB93D61618B9211700681DD9 /* HitDreams-Info.plist */,
 				EB93D61718B9211700681DD9 /* InfoPlist.strings */,
 				EB93D61A18B9211700681DD9 /* main.m */,
@@ -105,6 +248,51 @@
 				EB93D62418B9211700681DD9 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB93D63118B9270B00681DD9 /* Shots */ = {
+			isa = PBXGroup;
+			children = (
+				EB93D63218B9270B00681DD9 /* galeria_256x256.png */,
+				EB93D63318B9270B00681DD9 /* galerias_512x512.png */,
+				EB93D63418B9270B00681DD9 /* Notas_256x256.png */,
+				EB93D63518B9270B00681DD9 /* Notas_512x512.png */,
+			);
+			name = Shots;
+			path = Capturas;
+			sourceTree = "<group>";
+		};
+		EB93D63A18B9272F00681DD9 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				EB93D63B18B9272F00681DD9 /* add_note_256x256.png */,
+				EB93D63C18B9272F00681DD9 /* add_note_512x512.png */,
+				EB93D63D18B9272F00681DD9 /* foto_256x256.png */,
+				EB93D63E18B9272F00681DD9 /* foto_512x512.png */,
+				EB93D63F18B9272F00681DD9 /* Galeria_256x256.png */,
+				EB93D64018B9272F00681DD9 /* Galeria_512x512.png */,
+				EB93D64118B9272F00681DD9 /* lupa_256x256.png */,
+				EB93D64218B9272F00681DD9 /* lupa_512x512.png */,
+				EB93D64318B9272F00681DD9 /* note_256x256.png */,
+				EB93D64418B9272F00681DD9 /* note_512x512.png */,
+			);
+			name = Icons;
+			path = Iconos;
+			sourceTree = "<group>";
+		};
+		EBF64C4118BCA6A90062C918 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EBF64C4218BCA79B0062C918 /* HDWish.h */,
+				EBF64C4318BCA79B0062C918 /* HDWish.m */,
+				EBF64C4518BCA7D30062C918 /* HDWishList.h */,
+				EBF64C4618BCA7D30062C918 /* HDWishList.m */,
+				EBF64C4818BCA7EF0062C918 /* HDUser.h */,
+				EBF64C4918BCA7EF0062C918 /* HDUser.m */,
+				EBF64C4B18BCB6D00062C918 /* HDWebServiceFetcher.h */,
+				EBF64C4C18BCB6D00062C918 /* HDWebServiceFetcher.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +352,36 @@
 				EB93D62318B9211700681DD9 /* Default@2x.png in Resources */,
 				EB93D62518B9211700681DD9 /* Default-568h@2x.png in Resources */,
 				EB93D62B18B9211700681DD9 /* HDViewController.xib in Resources */,
+				EB93D63618B9270B00681DD9 /* galeria_256x256.png in Resources */,
+				EB93D63718B9270B00681DD9 /* galerias_512x512.png in Resources */,
+				EB93D63818B9270B00681DD9 /* Notas_256x256.png in Resources */,
+				EB93D63918B9270B00681DD9 /* Notas_512x512.png in Resources */,
+				EB93D64518B9272F00681DD9 /* add_note_256x256.png in Resources */,
+				EB93D64618B9272F00681DD9 /* add_note_512x512.png in Resources */,
+				EB76E50318C38B10008C422D /* HDPhotoUploadViewController.xib in Resources */,
+				EB93D64718B9272F00681DD9 /* foto_256x256.png in Resources */,
+				EB93D64818B9272F00681DD9 /* foto_512x512.png in Resources */,
+				EB93D64918B9272F00681DD9 /* Galeria_256x256.png in Resources */,
+				EB93D64A18B9272F00681DD9 /* Galeria_512x512.png in Resources */,
+				EB93D64B18B9272F00681DD9 /* lupa_256x256.png in Resources */,
+				EB93D64C18B9272F00681DD9 /* lupa_512x512.png in Resources */,
+				EB93D64D18B9272F00681DD9 /* note_256x256.png in Resources */,
+				EB93D64E18B9272F00681DD9 /* note_512x512.png in Resources */,
+				EB93D65318B92C4300681DD9 /* HDPendingBusinessesViewController.xib in Resources */,
+				EB93D65818B9353C00681DD9 /* HDNotesViewController.xib in Resources */,
+				EB93D66218BA354B00681DD9 /* dress1.jpeg in Resources */,
+				EB93D66318BA354B00681DD9 /* dress2.jpeg in Resources */,
+				EB93D66418BA354B00681DD9 /* dress3.jpg in Resources */,
+				EB93D66518BA354B00681DD9 /* dress4.jpeg in Resources */,
+				EB93D66618BA354B00681DD9 /* dress5.jpeg in Resources */,
+				EB93D66718BA354B00681DD9 /* dress6.jpeg in Resources */,
+				EB93D67418BA52DB00681DD9 /* HDGalleryViewController.xib in Resources */,
+				EB93D67618BA59DC00681DD9 /* HDGalleryViewCell.xib in Resources */,
+				EBF64C6318BF8A920062C918 /* HDWishListViewCell.xib in Resources */,
+				EBF64C6818C275CA0062C918 /* HDWishListCell.xib in Resources */,
+				EBF64C7218C282E00062C918 /* HDWishCell.xib in Resources */,
+				EBF64C7718C348350062C918 /* HDWishImagePickerController.xib in Resources */,
+				EBF64C7918C34F1D0062C918 /* HDWishPhotoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +395,20 @@
 				EB93D61B18B9211700681DD9 /* main.m in Sources */,
 				EB93D61F18B9211700681DD9 /* HDAppDelegate.m in Sources */,
 				EB93D62818B9211700681DD9 /* HDViewController.m in Sources */,
+				EB93D65218B92C4300681DD9 /* HDPendingBusinessesViewController.m in Sources */,
+				EB93D65718B9353C00681DD9 /* HDNotesViewController.m in Sources */,
+				EB93D66B18BA35DC00681DD9 /* HDGalleryViewController.m in Sources */,
+				EB93D67218BA436600681DD9 /* HDGalleryViewCell.m in Sources */,
+				EBF64C4418BCA79B0062C918 /* HDWish.m in Sources */,
+				EBF64C4718BCA7D30062C918 /* HDWishList.m in Sources */,
+				EBF64C4A18BCA7EF0062C918 /* HDUser.m in Sources */,
+				EBF64C4D18BCB6D10062C918 /* HDWebServiceFetcher.m in Sources */,
+				EBF64C5718BCFEEA0062C918 /* HDGalleryView.m in Sources */,
+				EBF64C5F18BDF2460062C918 /* HDWishListViewCell.m in Sources */,
+				EBF64C6618C275B00062C918 /* HDWishListCell.m in Sources */,
+				EBF64C7018C282B70062C918 /* HDWishCell.m in Sources */,
+				EB76E50218C38B10008C422D /* HDPhotoUploadViewController.m in Sources */,
+				EBF64C7618C348350062C918 /* HDWishImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +496,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HitDreams/HitDreams-Prefix.pch";
 				INFOPLIST_FILE = "HitDreams/HitDreams-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -275,7 +509,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HitDreams/HitDreams-Prefix.pch";
 				INFOPLIST_FILE = "HitDreams/HitDreams-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -299,6 +535,7 @@
 				EB93D63018B9211700681DD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
